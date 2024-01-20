@@ -1,6 +1,7 @@
 import { useEffect } from "react";
-import hirely from "../../assets/images/Hirely.png";
-import easyStaff from "../../assets/images/EasysStaff.png";
+import discord from "../../assets/images/discord.png";
+import agis from "../../assets/images/agis.png"
+import tacosTequila from "../../assets/images/tacosTequila.png";
 import PrincessPolly1 from "../../assets/images/PrincessPolly1.png";
 import bloggy from "../../assets/images/Bloggy.png";
 import planitio from "../../assets/images/Planitio.png";
@@ -124,7 +125,7 @@ const Projects = () => {
         Featured Projects
       </h1>
       <div className="sm:space-y-40 space-y-32 xl:space-y-[35vh] z-30">
-                {/* Hirely */}
+                {/* Airbnb */}
                 <div className="container lg:space-x-2  flex flex-col-reverse lg:flex-row lg:justify-between  lg:items-center items-start invisible ">
           <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3 ">
             <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
@@ -133,7 +134,7 @@ const Projects = () => {
               </div>
             </h1>
             <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl sm:text-xl 2xl:text-3xl vvs:text-base text-sm">
-            My Airbnb clone project exemplifies my web development expertise. I meticulously recreated Airbnb's core features, ensuring a seamless user experience with an eye-catching design.            </p>
+            Effortless reservations via calendar, filtered listings, social login, plus the ability to create your own listing and favourite them</p>
             <div className="btn-row flex justify-start space-x-6 items-center">
               <div className="github-btn">
                 <a
@@ -165,11 +166,11 @@ const Projects = () => {
             <div className="img-container absolute top-0 left-0 bg-[#420fe7] w-full h-full"></div>
           </div>
         </div>
-                {/* RealEstate */}
+                {/* Agi's Caribbean */}
                 <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
           <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
             <img
-              src={RealEstate1}
+              src={agis}
               alt="project image"
               className="absolute w-full object-contain h-full img"
             />
@@ -179,18 +180,18 @@ const Projects = () => {
           <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3">
             <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
               <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7] ">
-                <div className="content-line-inner">Estate Hub</div>
+                <div className="content-line-inner">Agi's Caribbean</div>
               </div>
             </h1>
             <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm lg:text-right">
-            A real estate marketplace featuring properties tailored to market demand, providing comprehensive assistance for your ideal home-buying or selling journey
+              This website is a showcase of my design abilities built for a client. The design is fun and playful to fit the client's request.
             </p>
             <div className="btn-row flex justify-start space-x-6 items-center lg:justify-end">
               <div className="github-btn">
                 <a
                   className="icon "
                   target="_blank"
-                  href="https://github.com/porkosaurus/RealEstate-Client"
+                  href="https://github.com/porkosaurus/agis-samosas"
                 >
                   <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
                 </a>
@@ -199,7 +200,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
-                  href="https://estate-hub.netlify.app"
+                  href="https://agiscaribbean.netlify.app/"
                 >
                   <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
                 </a>
@@ -207,23 +208,22 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* Hirely */}
+        {/* Discord */}
         <div className="container lg:space-x-2  flex flex-col-reverse lg:flex-row lg:justify-between  lg:items-center items-start invisible ">
           <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3 ">
             <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
               <div className="content-line flex items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7]">
-                <div className="content-line-inner">Social Wave</div>
+                <div className="content-line-inner">Discord Clone</div>
               </div>
             </h1>
             <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl sm:text-xl 2xl:text-3xl vvs:text-base text-sm">
-            Join the social revolution at Social Wave. Stay connected, share moments, and build meaningful connections with friends and like-minded individuals
-            </p>
+            Discord-inspired website featuring real-time text communication, video chat, seamless login, and a user interface inspired by Discord's design.</p>
             <div className="btn-row flex justify-start space-x-6 items-center">
               <div className="github-btn">
                 <a
                   className="icon "
                   target="_blank"
-                  href="https://github.com/porkosaurus/SocialMedia-Client"
+                  href="https://github.com/porkosaurus/discord-clone"
                 >
                   <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
                 </a>
@@ -232,7 +232,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
-                  href="https://mercuri-media.netlify.app"
+                  href="https://discord-clone-production-eaa4.up.railway.app/"
                 >
                   <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
                 </a>
@@ -242,7 +242,7 @@ const Projects = () => {
 
           <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
             <img
-              src={hirely}
+              src={discord}
               alt="project image"
               className="absolute w-full object-contain h-full img"
             />
@@ -290,7 +290,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* Easy Staff */}
+        {/* Tacos Tequila Whiskey */}
         <div className="container lg:space-x-2 flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center items-start invisible">
           <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3 ">
             <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
@@ -324,7 +324,7 @@ const Projects = () => {
 
           <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
             <img
-              src={easyStaff}
+              src={tacosTequila}
               alt="project image"
               className="absolute w-full object-contain h-full img"
             />
@@ -332,7 +332,50 @@ const Projects = () => {
           </div>
         </div>
       </div>
+                      {/* Real Estate */}
+                      <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
+          <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
+            <img
+              src={RealEstate1}
+              alt="project image"
+              className="absolute w-full object-contain h-full img"
+            />
+            <div className="img-container absolute top-0 right-0 bg-[#420fe7] w-full h-full"></div>
+          </div>
+
+          <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3">
+            <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
+              <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden bg-[#420fe7] ">
+                <div className="content-line-inner">Estate Hub</div>
+              </div>
+            </h1>
+            <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm lg:text-right">
+              Estate Hub is a real estate website that allows users to search for specific listing and view them on a global 3D map with location markers for listings.
+            </p>
+            <div className="btn-row flex justify-start space-x-6 items-center lg:justify-end">
+              <div className="github-btn">
+                <a
+                  className="icon "
+                  target="_blank"
+                  href="https://github.com/porkosaurus/RealEstate-Client"
+                >
+                  <BsGithub className="lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out repo text-white/90 hover:text-white" />
+                </a>
+              </div>
+              <div className="liveDemo-btn">
+                <a
+                  className="icon"
+                  target="_blank"
+                  href="https://estate-hub.netlify.app"
+                >
+                  <BsArrowRight className="link lg:h-8 lg:w-8 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-rotate-[45deg] hover:text-white transition duration-200 ease-in-out text-white/90" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
+    
   );
 };
 
