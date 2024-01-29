@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import profilePhoto from "../../assets/images/6165B6EC-2EEF-4CC9-BD45-8C05C7E57221.png";
+import profilePhoto from "../../assets/images/profilePicture.png";
 import Tooltip from "@mui/material/Tooltip";
 import { Fade } from "@mui/material";
 import { motion } from "framer-motion";
